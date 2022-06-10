@@ -1,0 +1,1229 @@
+<?xml version="1.0" ?>
+<world>
+	<camera>
+		<position x="0" y="2" z="60"/>
+		<lookAt x="0" y="2" z="0"/>
+		<up x="0" y="1" z="0"/>
+		<projection fov="60" near="1" far="1000"/>
+	</camera>
+	<lights>
+		<light type="point" posX="0" posY="0" posZ="0"/>
+	</lights>
+	<group>
+		<group>
+			<transform>
+				<scale x="6" y="6" z="6"/>
+				<rotate time="13" x="0" y="0.73" z="0"/>
+			</transform>
+			<models>
+				<model file="sphere_nt.3d">
+					<color>
+						<emissive R="255" G="255" B="255"/>
+					</color>
+					<texture file="sun.jpg"/>
+				</model>
+			</models>
+		</group>
+		<group>
+			<transform>
+				<translate time="5" align="False">
+					<point x="7.5" y="0.0" z="0.0"/>
+					<point x="7.222" y="0.0" z="2.023"/>
+					<point x="6.408" y="0.0" z="3.897"/>
+					<point x="5.119" y="0.0" z="5.481"/>
+					<point x="3.45" y="0.0" z="6.659"/>
+					<point x="1.526" y="0.0" z="7.343"/>
+					<point x="-0.512" y="0.0" z="7.483"/>
+					<point x="-2.512" y="0.0" z="7.067"/>
+					<point x="-4.325" y="0.0" z="6.127"/>
+					<point x="-5.818" y="0.0" z="4.733"/>
+					<point x="-6.879" y="0.0" z="2.988"/>
+					<point x="-7.43" y="0.0" z="1.021"/>
+					<point x="-7.43" y="0.0" z="-1.021"/>
+					<point x="-6.879" y="0.0" z="-2.988"/>
+					<point x="-5.818" y="0.0" z="-4.733"/>
+					<point x="-4.325" y="0.0" z="-6.127"/>
+					<point x="-2.512" y="0.0" z="-7.067"/>
+					<point x="-0.512" y="0.0" z="-7.483"/>
+					<point x="1.526" y="0.0" z="-7.343"/>
+					<point x="3.45" y="0.0" z="-6.659"/>
+					<point x="5.119" y="0.0" z="-5.481"/>
+					<point x="6.408" y="0.0" z="-3.897"/>
+					<point x="7.222" y="0.0" z="-2.023"/>
+				</translate>
+				<scale x="0.5" y="0.5" z="0.5"/>
+				<rotate time="5" x="0" y="0.19" z="0"/>
+			</transform>
+			<models>
+				<model file="sphere_nt.3d">
+					<texture file="mercury.jpg"/>
+				</model>
+			</models>
+		</group>
+		<group>
+			<transform>
+				<translate time="7" align="False">
+					<point x="9.5" y="0.0" z="0.0"/>
+					<point x="9.278" y="0.0" z="2.042"/>
+					<point x="8.622" y="0.0" z="3.989"/>
+					<point x="7.563" y="0.0" z="5.749"/>
+					<point x="6.15" y="0.0" z="7.241"/>
+					<point x="4.45" y="0.0" z="8.393"/>
+					<point x="2.542" y="0.0" z="9.154"/>
+					<point x="0.514" y="0.0" z="9.486"/>
+					<point x="-1.537" y="0.0" z="9.375"/>
+					<point x="-3.516" y="0.0" z="8.825"/>
+					<point x="-5.331" y="0.0" z="7.863"/>
+					<point x="-6.897" y="0.0" z="6.533"/>
+					<point x="-8.14" y="0.0" z="4.898"/>
+					<point x="-9.003" y="0.0" z="3.033"/>
+					<point x="-9.444" y="0.0" z="1.027"/>
+					<point x="-9.444" y="0.0" z="-1.027"/>
+					<point x="-9.003" y="0.0" z="-3.033"/>
+					<point x="-8.14" y="0.0" z="-4.898"/>
+					<point x="-6.897" y="0.0" z="-6.533"/>
+					<point x="-5.331" y="0.0" z="-7.863"/>
+					<point x="-3.516" y="0.0" z="-8.825"/>
+					<point x="-1.537" y="0.0" z="-9.375"/>
+					<point x="0.514" y="0.0" z="-9.486"/>
+					<point x="2.542" y="0.0" z="-9.154"/>
+					<point x="4.45" y="0.0" z="-8.393"/>
+					<point x="6.15" y="0.0" z="-7.241"/>
+					<point x="7.563" y="0.0" z="-5.749"/>
+					<point x="8.622" y="0.0" z="-3.989"/>
+					<point x="9.278" y="0.0" z="-2.042"/>
+				</translate>
+				<scale x="0.9" y="0.9" z="0.9"/>
+				<rotate time="7" x="0" y="0.727" z="0"/>
+			</transform>
+			<models>
+				<model file="sphere_nt.3d">
+					<texture file="venus.jpg"/>
+				</model>
+			</models>
+		</group>
+		<group>
+			<transform>
+				<translate time="10" align="False">
+					<point x="12.0" y="0.0" z="0.0"/>
+					<point x="11.827" y="0.0" z="2.028"/>
+					<point x="11.315" y="0.0" z="3.998"/>
+					<point x="10.476" y="0.0" z="5.852"/>
+					<point x="9.336" y="0.0" z="7.539"/>
+					<point x="7.928" y="0.0" z="9.008"/>
+					<point x="6.292" y="0.0" z="10.218"/>
+					<point x="4.474" y="0.0" z="11.135"/>
+					<point x="2.528" y="0.0" z="11.731"/>
+					<point x="0.509" y="0.0" z="11.989"/>
+					<point x="-1.524" y="0.0" z="11.903"/>
+					<point x="-3.514" y="0.0" z="11.474"/>
+					<point x="-5.402" y="0.0" z="10.715"/>
+					<point x="-7.136" y="0.0" z="9.648"/>
+					<point x="-8.663" y="0.0" z="8.303"/>
+					<point x="-9.942" y="0.0" z="6.72"/>
+					<point x="-10.935" y="0.0" z="4.943"/>
+					<point x="-11.613" y="0.0" z="3.024"/>
+					<point x="-11.957" y="0.0" z="1.018"/>
+					<point x="-11.957" y="0.0" z="-1.018"/>
+					<point x="-11.613" y="0.0" z="-3.024"/>
+					<point x="-10.935" y="0.0" z="-4.943"/>
+					<point x="-9.942" y="0.0" z="-6.72"/>
+					<point x="-8.663" y="0.0" z="-8.303"/>
+					<point x="-7.136" y="0.0" z="-9.648"/>
+					<point x="-5.402" y="0.0" z="-10.715"/>
+					<point x="-3.514" y="0.0" z="-11.474"/>
+					<point x="-1.524" y="0.0" z="-11.903"/>
+					<point x="0.509" y="0.0" z="-11.989"/>
+					<point x="2.528" y="0.0" z="-11.731"/>
+					<point x="4.474" y="0.0" z="-11.135"/>
+					<point x="6.292" y="0.0" z="-10.218"/>
+					<point x="7.928" y="0.0" z="-9.008"/>
+					<point x="9.336" y="0.0" z="-7.539"/>
+					<point x="10.476" y="0.0" z="-5.852"/>
+					<point x="11.315" y="0.0" z="-3.998"/>
+					<point x="11.827" y="0.0" z="-2.028"/>
+				</translate>
+				<scale x="1" y="1" z="1"/>
+				<rotate time="8" x="0" y="0.477" z="0"/>
+			</transform>
+			<models>
+				<model file="sphere_nt.3d">
+					<texture file="earth.jpg"/>
+				</model>
+			</models>
+			<group>
+				<transform>
+					<translate time="5" align="False">
+						<point x="1.3" y="1.3" z="0.0"/>
+						<point x="0.0" y="0.0" z="1.3"/>
+						<point x="-1.3" y="-1.3" z="0.0"/>
+						<point x="0.0" y="0.0" z="-1.3"/>
+					</translate>
+					<scale x="0.2" y="0.2" z="0.2"/>
+					<rotate time="6" x="0.572" y="0.086" z="0.463"/>
+				</transform>
+				<models>
+					<model file="sphere_nt.3d">
+						<texture file="moon.jpg"/>
+					</model>
+				</models>
+			</group>
+		</group>
+		<group>
+			<transform>
+				<translate time="12" align="False">
+					<point x="14.0" y="0.0" z="0.0"/>
+					<point x="13.851" y="0.0" z="2.038"/>
+					<point x="13.406" y="0.0" z="4.033"/>
+					<point x="12.676" y="0.0" z="5.942"/>
+					<point x="11.676" y="0.0" z="7.725"/>
+					<point x="10.427" y="0.0" z="9.342"/>
+					<point x="8.955" y="0.0" z="10.761"/>
+					<point x="7.293" y="0.0" z="11.95"/>
+					<point x="5.475" y="0.0" z="12.885"/>
+					<point x="3.541" y="0.0" z="13.545"/>
+					<point x="1.531" y="0.0" z="13.916"/>
+					<point x="-0.511" y="0.0" z="13.991"/>
+					<point x="-2.543" y="0.0" z="13.767"/>
+					<point x="-4.52" y="0.0" z="13.25"/>
+					<point x="-6.401" y="0.0" z="12.451"/>
+					<point x="-8.146" y="0.0" z="11.386"/>
+					<point x="-9.717" y="0.0" z="10.079"/>
+					<point x="-11.081" y="0.0" z="8.556"/>
+					<point x="-12.209" y="0.0" z="6.852"/>
+					<point x="-13.076" y="0.0" z="5.001"/>
+					<point x="-13.665" y="0.0" z="3.044"/>
+					<point x="-13.963" y="0.0" z="1.022"/>
+					<point x="-13.963" y="0.0" z="-1.022"/>
+					<point x="-13.665" y="0.0" z="-3.044"/>
+					<point x="-13.076" y="0.0" z="-5.001"/>
+					<point x="-12.209" y="0.0" z="-6.852"/>
+					<point x="-11.081" y="0.0" z="-8.556"/>
+					<point x="-9.717" y="0.0" z="-10.079"/>
+					<point x="-8.146" y="0.0" z="-11.386"/>
+					<point x="-6.401" y="0.0" z="-12.451"/>
+					<point x="-4.52" y="0.0" z="-13.25"/>
+					<point x="-2.543" y="0.0" z="-13.767"/>
+					<point x="-0.511" y="0.0" z="-13.991"/>
+					<point x="1.531" y="0.0" z="-13.916"/>
+					<point x="3.541" y="0.0" z="-13.545"/>
+					<point x="5.475" y="0.0" z="-12.885"/>
+					<point x="7.293" y="0.0" z="-11.95"/>
+					<point x="8.955" y="0.0" z="-10.761"/>
+					<point x="10.427" y="0.0" z="-9.342"/>
+					<point x="11.676" y="0.0" z="-7.725"/>
+					<point x="12.676" y="0.0" z="-5.942"/>
+					<point x="13.406" y="0.0" z="-4.033"/>
+					<point x="13.851" y="0.0" z="-2.038"/>
+				</translate>
+				<scale x="0.7" y="0.7" z="0.7"/>
+				<rotate time="8" x="0" y="0.723" z="0"/>
+			</transform>
+			<models>
+				<model file="sphere_nt.3d">
+					<texture file="mars.jpg"/>
+				</model>
+			</models>
+			<group>
+				<transform>
+					<translate time="20" align="False">
+						<point x="1.3" y="1.3" z="0.0"/>
+						<point x="0.0" y="0.0" z="1.3"/>
+						<point x="-1.3" y="-1.3" z="0.0"/>
+						<point x="0.0" y="0.0" z="-1.3"/>
+					</translate>
+					<scale x="0.2" y="0.2" z="0.2"/>
+					<rotate time="6" x="0.574" y="0.381" z="0.76"/>
+				</transform>
+				<models>
+					<model file="sphere_nt.3d">
+						<texture file="moon.jpg"/>
+					</model>
+				</models>
+			</group>
+			<group>
+				<transform>
+					<translate time="20" align="False">
+						<point x="1.7" y="-1.7" z="0.0"/>
+						<point x="0.525" y="-0.525" z="1.617"/>
+						<point x="-1.375" y="1.375" z="0.999"/>
+						<point x="-1.375" y="1.375" z="-0.999"/>
+						<point x="0.525" y="-0.525" z="-1.617"/>
+					</translate>
+					<scale x="0.1" y="0.1" z="0.1"/>
+					<rotate time="6" x="0.315" y="0.552" z="0.852"/>
+				</transform>
+				<models>
+					<model file="sphere_nt.3d">
+						<texture file="moon.jpg"/>
+					</model>
+				</models>
+			</group>
+		</group>
+		<group>
+			<transform>
+				<translate time="15" align="False">
+					<point x="19.0" y="0.0" z="0.0"/>
+					<point x="18.892" y="0.0" z="2.02"/>
+					<point x="18.571" y="0.0" z="4.016"/>
+					<point x="18.039" y="0.0" z="5.967"/>
+					<point x="17.302" y="0.0" z="7.851"/>
+					<point x="16.37" y="0.0" z="9.646"/>
+					<point x="15.252" y="0.0" z="11.331"/>
+					<point x="13.961" y="0.0" z="12.888"/>
+					<point x="12.512" y="0.0" z="14.299"/>
+					<point x="10.921" y="0.0" z="15.548"/>
+					<point x="9.206" y="0.0" z="16.62"/>
+					<point x="7.388" y="0.0" z="17.505"/>
+					<point x="5.485" y="0.0" z="18.191"/>
+					<point x="3.52" y="0.0" z="18.671"/>
+					<point x="1.516" y="0.0" z="18.939"/>
+					<point x="-0.506" y="0.0" z="18.993"/>
+					<point x="-2.522" y="0.0" z="18.832"/>
+					<point x="-4.509" y="0.0" z="18.457"/>
+					<point x="-6.446" y="0.0" z="17.873"/>
+					<point x="-8.309" y="0.0" z="17.087"/>
+					<point x="-10.078" y="0.0" z="16.107"/>
+					<point x="-11.733" y="0.0" z="14.944"/>
+					<point x="-13.255" y="0.0" z="13.613"/>
+					<point x="-14.627" y="0.0" z="12.127"/>
+					<point x="-15.833" y="0.0" z="10.503"/>
+					<point x="-16.86" y="0.0" z="8.761"/>
+					<point x="-17.695" y="0.0" z="6.919"/>
+					<point x="-18.331" y="0.0" z="4.999"/>
+					<point x="-18.758" y="0.0" z="3.022"/>
+					<point x="-18.973" y="0.0" z="1.011"/>
+					<point x="-18.973" y="0.0" z="-1.011"/>
+					<point x="-18.758" y="0.0" z="-3.022"/>
+					<point x="-18.331" y="0.0" z="-4.999"/>
+					<point x="-17.695" y="0.0" z="-6.919"/>
+					<point x="-16.86" y="0.0" z="-8.761"/>
+					<point x="-15.833" y="0.0" z="-10.503"/>
+					<point x="-14.627" y="0.0" z="-12.127"/>
+					<point x="-13.255" y="0.0" z="-13.613"/>
+					<point x="-11.733" y="0.0" z="-14.944"/>
+					<point x="-10.078" y="0.0" z="-16.107"/>
+					<point x="-8.309" y="0.0" z="-17.087"/>
+					<point x="-6.446" y="0.0" z="-17.873"/>
+					<point x="-4.509" y="0.0" z="-18.457"/>
+					<point x="-2.522" y="0.0" z="-18.832"/>
+					<point x="-0.506" y="0.0" z="-18.993"/>
+					<point x="1.516" y="0.0" z="-18.939"/>
+					<point x="3.52" y="0.0" z="-18.671"/>
+					<point x="5.485" y="0.0" z="-18.191"/>
+					<point x="7.388" y="0.0" z="-17.505"/>
+					<point x="9.206" y="0.0" z="-16.62"/>
+					<point x="10.921" y="0.0" z="-15.548"/>
+					<point x="12.512" y="0.0" z="-14.299"/>
+					<point x="13.961" y="0.0" z="-12.888"/>
+					<point x="15.252" y="0.0" z="-11.331"/>
+					<point x="16.37" y="0.0" z="-9.646"/>
+					<point x="17.302" y="0.0" z="-7.851"/>
+					<point x="18.039" y="0.0" z="-5.967"/>
+					<point x="18.571" y="0.0" z="-4.016"/>
+					<point x="18.892" y="0.0" z="-2.02"/>
+				</translate>
+				<scale x="2.5" y="2.5" z="2.5"/>
+				<rotate time="12" x="0" y="0.178" z="0"/>
+			</transform>
+			<models>
+				<model file="sphere_nt.3d">
+					<texture file="jupiter.jpg"/>
+				</model>
+			</models>
+			<group>
+				<transform>
+					<translate time="20" align="False">
+						<point x="1.3" y="1.3" z="0.0"/>
+						<point x="0.0" y="0.0" z="1.3"/>
+						<point x="-1.3" y="-1.3" z="0.0"/>
+						<point x="0.0" y="0.0" z="-1.3"/>
+					</translate>
+					<scale x="0.15" y="0.15" z="0.15"/>
+					<rotate time="6" x="0.763" y="0.183" z="0.092"/>
+				</transform>
+				<models>
+					<model file="sphere_nt.3d">
+						<texture file="moon.jpg"/>
+					</model>
+				</models>
+			</group>
+			<group>
+				<transform>
+					<translate time="20" align="False">
+						<point x="1.7" y="-1.7" z="0.0"/>
+						<point x="0.525" y="-0.525" z="1.617"/>
+						<point x="-1.375" y="1.375" z="0.999"/>
+						<point x="-1.375" y="1.375" z="-0.999"/>
+						<point x="0.525" y="-0.525" z="-1.617"/>
+					</translate>
+					<scale x="0.1" y="0.1" z="0.1"/>
+					<rotate time="6" x="0.607" y="0.206" z="0.306"/>
+				</transform>
+				<models>
+					<model file="sphere_nt.3d">
+						<texture file="moon.jpg"/>
+					</model>
+				</models>
+			</group>
+			<group>
+				<transform>
+					<translate time="20" align="False">
+						<point x="2.425" y="1.4" z="0.0"/>
+						<point x="1.512" y="0.873" z="1.896"/>
+						<point x="-0.54" y="-0.312" z="2.364"/>
+						<point x="-2.185" y="-1.261" z="1.052"/>
+						<point x="-2.185" y="-1.261" z="-1.052"/>
+						<point x="-0.54" y="-0.312" z="-2.364"/>
+						<point x="1.512" y="0.873" z="-1.896"/>
+					</translate>
+					<scale x="0.2" y="0.2" z="0.2"/>
+					<rotate time="6" x="0.991" y="0.994" z="0.335"/>
+				</transform>
+				<models>
+					<model file="sphere_nt.3d">
+						<texture file="moon.jpg"/>
+					</model>
+				</models>
+			</group>
+			<group>
+				<transform>
+					<translate time="20" align="False">
+						<point x="2.408" y="1.6" z="0.0"/>
+						<point x="1.502" y="0.998" z="1.883"/>
+						<point x="-0.536" y="-0.356" z="2.348"/>
+						<point x="-2.17" y="-1.442" z="1.045"/>
+						<point x="-2.17" y="-1.442" z="-1.045"/>
+						<point x="-0.536" y="-0.356" z="-2.348"/>
+						<point x="1.502" y="0.998" z="-1.883"/>
+					</translate>
+					<scale x="0.12" y="0.12" z="0.12"/>
+					<rotate time="6" x="0.359" y="0.646" z="0.034"/>
+				</transform>
+				<models>
+					<model file="sphere_nt.3d">
+						<texture file="moon.jpg"/>
+					</model>
+				</models>
+			</group>
+			<group>
+				<transform>
+					<translate time="20" align="False">
+						<point x="1.414" y="0.0" z="0.0"/>
+						<point x="0.0" y="0.0" z="1.414"/>
+						<point x="-1.414" y="0.0" z="0.0"/>
+						<point x="0.0" y="0.0" z="-1.414"/>
+					</translate>
+					<scale x="0.17" y="0.17" z="0.17"/>
+					<rotate time="6" x="0.584" y="0.261" z="0.077"/>
+				</transform>
+				<models>
+					<model file="sphere_nt.3d">
+						<texture file="moon.jpg"/>
+					</model>
+				</models>
+			</group>
+			<group>
+				<transform>
+					<translate time="20" align="False">
+						<point x="1.921" y="0.0" z="0.0"/>
+						<point x="0.96" y="0.0" z="1.664"/>
+						<point x="-0.96" y="0.0" z="1.664"/>
+						<point x="-1.921" y="0.0" z="0.0"/>
+						<point x="-0.96" y="0.0" z="-1.664"/>
+						<point x="0.96" y="0.0" z="-1.664"/>
+					</translate>
+					<scale x="0.14" y="0.14" z="0.14"/>
+					<rotate time="6" x="0.606" y="0.046" z="0.54"/>
+				</transform>
+				<models>
+					<model file="sphere_nt.3d">
+						<texture file="moon.jpg"/>
+					</model>
+				</models>
+			</group>
+		</group>
+		<group>
+			<transform>
+				<translate time="18" align="False">
+					<point x="25.0" y="0.0" z="0.0"/>
+					<point x="24.919" y="0.0" z="2.012"/>
+					<point x="24.676" y="0.0" z="4.01"/>
+					<point x="24.274" y="0.0" z="5.983"/>
+					<point x="23.713" y="0.0" z="7.917"/>
+					<point x="22.999" y="0.0" z="9.799"/>
+					<point x="22.136" y="0.0" z="11.618"/>
+					<point x="21.13" y="0.0" z="13.362"/>
+					<point x="19.986" y="0.0" z="15.019"/>
+					<point x="18.713" y="0.0" z="16.578"/>
+					<point x="17.318" y="0.0" z="18.03"/>
+					<point x="15.811" y="0.0" z="19.365"/>
+					<point x="14.202" y="0.0" z="20.575"/>
+					<point x="12.5" y="0.0" z="21.651"/>
+					<point x="10.717" y="0.0" z="22.586"/>
+					<point x="8.865" y="0.0" z="23.375"/>
+					<point x="6.955" y="0.0" z="24.013"/>
+					<point x="5.001" y="0.0" z="24.495"/>
+					<point x="3.013" y="0.0" z="24.818"/>
+					<point x="1.007" y="0.0" z="24.98"/>
+					<point x="-1.007" y="0.0" z="24.98"/>
+					<point x="-3.013" y="0.0" z="24.818"/>
+					<point x="-5.001" y="0.0" z="24.495"/>
+					<point x="-6.955" y="0.0" z="24.013"/>
+					<point x="-8.865" y="0.0" z="23.375"/>
+					<point x="-10.717" y="0.0" z="22.586"/>
+					<point x="-12.5" y="0.0" z="21.651"/>
+					<point x="-14.202" y="0.0" z="20.575"/>
+					<point x="-15.811" y="0.0" z="19.365"/>
+					<point x="-17.318" y="0.0" z="18.03"/>
+					<point x="-18.713" y="0.0" z="16.578"/>
+					<point x="-19.986" y="0.0" z="15.019"/>
+					<point x="-21.13" y="0.0" z="13.362"/>
+					<point x="-22.136" y="0.0" z="11.618"/>
+					<point x="-22.999" y="0.0" z="9.799"/>
+					<point x="-23.713" y="0.0" z="7.917"/>
+					<point x="-24.274" y="0.0" z="5.983"/>
+					<point x="-24.676" y="0.0" z="4.01"/>
+					<point x="-24.919" y="0.0" z="2.012"/>
+					<point x="-25.0" y="0.0" z="0.0"/>
+					<point x="-24.919" y="0.0" z="-2.012"/>
+					<point x="-24.676" y="0.0" z="-4.01"/>
+					<point x="-24.274" y="0.0" z="-5.983"/>
+					<point x="-23.713" y="0.0" z="-7.917"/>
+					<point x="-22.999" y="0.0" z="-9.799"/>
+					<point x="-22.136" y="0.0" z="-11.618"/>
+					<point x="-21.13" y="0.0" z="-13.362"/>
+					<point x="-19.986" y="0.0" z="-15.019"/>
+					<point x="-18.713" y="0.0" z="-16.578"/>
+					<point x="-17.318" y="0.0" z="-18.03"/>
+					<point x="-15.811" y="0.0" z="-19.365"/>
+					<point x="-14.202" y="0.0" z="-20.575"/>
+					<point x="-12.5" y="0.0" z="-21.651"/>
+					<point x="-10.717" y="0.0" z="-22.586"/>
+					<point x="-8.865" y="0.0" z="-23.375"/>
+					<point x="-6.955" y="0.0" z="-24.013"/>
+					<point x="-5.001" y="0.0" z="-24.495"/>
+					<point x="-3.013" y="0.0" z="-24.818"/>
+					<point x="-1.007" y="0.0" z="-24.98"/>
+					<point x="1.007" y="0.0" z="-24.98"/>
+					<point x="3.013" y="0.0" z="-24.818"/>
+					<point x="5.001" y="0.0" z="-24.495"/>
+					<point x="6.955" y="0.0" z="-24.013"/>
+					<point x="8.865" y="0.0" z="-23.375"/>
+					<point x="10.717" y="0.0" z="-22.586"/>
+					<point x="12.5" y="0.0" z="-21.651"/>
+					<point x="14.202" y="0.0" z="-20.575"/>
+					<point x="15.811" y="0.0" z="-19.365"/>
+					<point x="17.318" y="0.0" z="-18.03"/>
+					<point x="18.713" y="0.0" z="-16.578"/>
+					<point x="19.986" y="0.0" z="-15.019"/>
+					<point x="21.13" y="0.0" z="-13.362"/>
+					<point x="22.136" y="0.0" z="-11.618"/>
+					<point x="22.999" y="0.0" z="-9.799"/>
+					<point x="23.713" y="0.0" z="-7.917"/>
+					<point x="24.274" y="0.0" z="-5.983"/>
+					<point x="24.676" y="0.0" z="-4.01"/>
+					<point x="24.919" y="0.0" z="-2.012"/>
+				</translate>
+				<scale x="2" y="2" z="2"/>
+				<rotate time="10" x="0" y="0.357" z="0"/>
+			</transform>
+			<models>
+				<model file="sphere_nt.3d">
+					<texture file="saturn.jpg"/>
+				</model>
+			</models>
+			<group>
+				<models>
+					<model file="torus_nt.3d">
+						<texture file="saturn_ring.jpg"/>
+					</model>
+				</models>
+			</group>
+			<group>
+				<transform>
+					<translate time="8" align="False">
+						<point x="1.3" y="-1.3" z="0.0"/>
+						<point x="0.0" y="0.0" z="1.3"/>
+						<point x="-1.3" y="1.3" z="0.0"/>
+						<point x="0.0" y="0.0" z="-1.3"/>
+					</translate>
+					<scale x="0.15" y="0.15" z="0.15"/>
+					<rotate time="6" x="0.392" y="0.875" z="0.726"/>
+				</transform>
+				<models>
+					<model file="sphere_nt.3d">
+						<texture file="moon.jpg"/>
+					</model>
+				</models>
+			</group>
+			<group>
+				<transform>
+					<translate time="8" align="False">
+						<point x="1.7" y="1.7" z="0.0"/>
+						<point x="0.525" y="0.525" z="1.617"/>
+						<point x="-1.375" y="-1.375" z="0.999"/>
+						<point x="-1.375" y="-1.375" z="-0.999"/>
+						<point x="0.525" y="0.525" z="-1.617"/>
+					</translate>
+					<scale x="0.1" y="0.1" z="0.1"/>
+					<rotate time="6" x="0.733" y="0.869" z="0.906"/>
+				</transform>
+				<models>
+					<model file="sphere_nt.3d">
+						<texture file="moon.jpg"/>
+					</model>
+				</models>
+			</group>
+			<group>
+				<transform>
+					<translate time="8" align="False">
+						<point x="2.425" y="-1.4" z="0.0"/>
+						<point x="1.512" y="-0.873" z="1.896"/>
+						<point x="-0.54" y="0.312" z="2.364"/>
+						<point x="-2.185" y="1.261" z="1.052"/>
+						<point x="-2.185" y="1.261" z="-1.052"/>
+						<point x="-0.54" y="0.312" z="-2.364"/>
+						<point x="1.512" y="-0.873" z="-1.896"/>
+					</translate>
+					<scale x="0.2" y="0.2" z="0.2"/>
+					<rotate time="6" x="0.958" y="0.966" z="0.57"/>
+				</transform>
+				<models>
+					<model file="sphere_nt.3d">
+						<texture file="moon.jpg"/>
+					</model>
+				</models>
+			</group>
+			<group>
+				<transform>
+					<translate time="8" align="False">
+						<point x="2.408" y="-1.6" z="0.0"/>
+						<point x="1.502" y="-0.998" z="1.883"/>
+						<point x="-0.536" y="0.356" z="2.348"/>
+						<point x="-2.17" y="1.442" z="1.045"/>
+						<point x="-2.17" y="1.442" z="-1.045"/>
+						<point x="-0.536" y="0.356" z="-2.348"/>
+						<point x="1.502" y="-0.998" z="-1.883"/>
+					</translate>
+					<scale x="0.12" y="0.12" z="0.12"/>
+					<rotate time="6" x="0.575" y="0.787" z="0.588"/>
+				</transform>
+				<models>
+					<model file="sphere_nt.3d">
+						<texture file="moon.jpg"/>
+					</model>
+				</models>
+			</group>
+			<group>
+				<transform>
+					<translate time="8" align="False">
+						<point x="1.64" y="0.0" z="0.0"/>
+						<point x="0.507" y="0.0" z="1.56"/>
+						<point x="-1.327" y="0.0" z="0.964"/>
+						<point x="-1.327" y="0.0" z="-0.964"/>
+						<point x="0.507" y="0.0" z="-1.56"/>
+					</translate>
+					<scale x="0.17" y="0.17" z="0.17"/>
+					<rotate time="6" x="0.097" y="0.645" z="0.941"/>
+				</transform>
+				<models>
+					<model file="sphere_nt.3d">
+						<texture file="moon.jpg"/>
+					</model>
+				</models>
+			</group>
+			<group>
+				<transform>
+					<translate time="8" align="False">
+						<point x="1.921" y="0.0" z="0.0"/>
+						<point x="0.96" y="0.0" z="1.664"/>
+						<point x="-0.96" y="0.0" z="1.664"/>
+						<point x="-1.921" y="0.0" z="0.0"/>
+						<point x="-0.96" y="0.0" z="-1.664"/>
+						<point x="0.96" y="0.0" z="-1.664"/>
+					</translate>
+					<scale x="0.14" y="0.14" z="0.14"/>
+					<rotate time="6" x="0.287" y="0.164" z="0.175"/>
+				</transform>
+				<models>
+					<model file="sphere_nt.3d">
+						<texture file="moon.jpg"/>
+					</model>
+				</models>
+			</group>
+		</group>
+		<group>
+			<transform>
+				<translate time="20" align="False">
+					<point x="31.0" y="0.0" z="0.0"/>
+					<point x="30.935" y="0.0" z="2.007"/>
+					<point x="30.74" y="0.0" z="4.005"/>
+					<point x="30.417" y="0.0" z="5.986"/>
+					<point x="29.965" y="0.0" z="7.943"/>
+					<point x="29.388" y="0.0" z="9.866"/>
+					<point x="28.688" y="0.0" z="11.747"/>
+					<point x="27.868" y="0.0" z="13.579"/>
+					<point x="26.93" y="0.0" z="15.355"/>
+					<point x="25.88" y="0.0" z="17.066"/>
+					<point x="24.721" y="0.0" z="18.705"/>
+					<point x="23.458" y="0.0" z="20.266"/>
+					<point x="22.097" y="0.0" z="21.742"/>
+					<point x="20.643" y="0.0" z="23.127"/>
+					<point x="19.103" y="0.0" z="24.415"/>
+					<point x="17.483" y="0.0" z="25.6"/>
+					<point x="15.789" y="0.0" z="26.678"/>
+					<point x="14.029" y="0.0" z="27.644"/>
+					<point x="12.21" y="0.0" z="28.494"/>
+					<point x="10.34" y="0.0" z="29.225"/>
+					<point x="8.427" y="0.0" z="29.833"/>
+					<point x="6.478" y="0.0" z="30.316"/>
+					<point x="4.502" y="0.0" z="30.671"/>
+					<point x="2.507" y="0.0" z="30.898"/>
+					<point x="0.502" y="0.0" z="30.996"/>
+					<point x="-1.505" y="0.0" z="30.963"/>
+					<point x="-3.507" y="0.0" z="30.801"/>
+					<point x="-5.493" y="0.0" z="30.509"/>
+					<point x="-7.456" y="0.0" z="30.09"/>
+					<point x="-9.388" y="0.0" z="29.544"/>
+					<point x="-11.281" y="0.0" z="28.875"/>
+					<point x="-13.126" y="0.0" z="28.084"/>
+					<point x="-14.917" y="0.0" z="27.175"/>
+					<point x="-16.645" y="0.0" z="26.153"/>
+					<point x="-18.302" y="0.0" z="25.02"/>
+					<point x="-19.884" y="0.0" z="23.783"/>
+					<point x="-21.381" y="0.0" z="22.446"/>
+					<point x="-22.79" y="0.0" z="21.015"/>
+					<point x="-24.102" y="0.0" z="19.496"/>
+					<point x="-25.313" y="0.0" z="17.895"/>
+					<point x="-26.419" y="0.0" z="16.219"/>
+					<point x="-27.413" y="0.0" z="14.475"/>
+					<point x="-28.293" y="0.0" z="12.67"/>
+					<point x="-29.053" y="0.0" z="10.812"/>
+					<point x="-29.692" y="0.0" z="8.909"/>
+					<point x="-30.207" y="0.0" z="6.968"/>
+					<point x="-30.594" y="0.0" z="4.998"/>
+					<point x="-30.854" y="0.0" z="3.007"/>
+					<point x="-30.984" y="0.0" z="1.004"/>
+					<point x="-30.984" y="0.0" z="-1.004"/>
+					<point x="-30.854" y="0.0" z="-3.007"/>
+					<point x="-30.594" y="0.0" z="-4.998"/>
+					<point x="-30.207" y="0.0" z="-6.968"/>
+					<point x="-29.692" y="0.0" z="-8.909"/>
+					<point x="-29.053" y="0.0" z="-10.812"/>
+					<point x="-28.293" y="0.0" z="-12.67"/>
+					<point x="-27.413" y="0.0" z="-14.475"/>
+					<point x="-26.419" y="0.0" z="-16.219"/>
+					<point x="-25.313" y="0.0" z="-17.895"/>
+					<point x="-24.102" y="0.0" z="-19.496"/>
+					<point x="-22.79" y="0.0" z="-21.015"/>
+					<point x="-21.381" y="0.0" z="-22.446"/>
+					<point x="-19.884" y="0.0" z="-23.783"/>
+					<point x="-18.302" y="0.0" z="-25.02"/>
+					<point x="-16.645" y="0.0" z="-26.153"/>
+					<point x="-14.917" y="0.0" z="-27.175"/>
+					<point x="-13.126" y="0.0" z="-28.084"/>
+					<point x="-11.281" y="0.0" z="-28.875"/>
+					<point x="-9.388" y="0.0" z="-29.544"/>
+					<point x="-7.456" y="0.0" z="-30.09"/>
+					<point x="-5.493" y="0.0" z="-30.509"/>
+					<point x="-3.507" y="0.0" z="-30.801"/>
+					<point x="-1.505" y="0.0" z="-30.963"/>
+					<point x="0.502" y="0.0" z="-30.996"/>
+					<point x="2.507" y="0.0" z="-30.898"/>
+					<point x="4.502" y="0.0" z="-30.671"/>
+					<point x="6.478" y="0.0" z="-30.316"/>
+					<point x="8.427" y="0.0" z="-29.833"/>
+					<point x="10.34" y="0.0" z="-29.225"/>
+					<point x="12.21" y="0.0" z="-28.494"/>
+					<point x="14.029" y="0.0" z="-27.644"/>
+					<point x="15.789" y="0.0" z="-26.678"/>
+					<point x="17.483" y="0.0" z="-25.6"/>
+					<point x="19.103" y="0.0" z="-24.415"/>
+					<point x="20.643" y="0.0" z="-23.127"/>
+					<point x="22.097" y="0.0" z="-21.742"/>
+					<point x="23.458" y="0.0" z="-20.266"/>
+					<point x="24.721" y="0.0" z="-18.705"/>
+					<point x="25.88" y="0.0" z="-17.066"/>
+					<point x="26.93" y="0.0" z="-15.355"/>
+					<point x="27.868" y="0.0" z="-13.579"/>
+					<point x="28.688" y="0.0" z="-11.747"/>
+					<point x="29.388" y="0.0" z="-9.866"/>
+					<point x="29.965" y="0.0" z="-7.943"/>
+					<point x="30.417" y="0.0" z="-5.986"/>
+					<point x="30.74" y="0.0" z="-4.005"/>
+					<point x="30.935" y="0.0" z="-2.007"/>
+				</translate>
+				<scale x="1.6" y="1.6" z="1.6"/>
+				<rotate time="9" x="0" y="0.914" z="0"/>
+			</transform>
+			<models>
+				<model file="sphere_nt.3d">
+					<texture file="uranus.jpg"/>
+				</model>
+			</models>
+			<group>
+				<transform>
+					<translate time="9" align="False">
+						<point x="1.64" y="1.3" z="0.0"/>
+						<point x="0.507" y="0.402" z="1.56"/>
+						<point x="-1.327" y="-1.052" z="0.964"/>
+						<point x="-1.327" y="-1.052" z="-0.964"/>
+						<point x="0.507" y="0.402" z="-1.56"/>
+					</translate>
+					<scale x="0.15" y="0.15" z="0.15"/>
+					<rotate time="6" x="0.517" y="0.724" z="0.582"/>
+				</transform>
+				<models>
+					<model file="sphere_nt.3d">
+						<texture file="moon.jpg"/>
+					</model>
+				</models>
+			</group>
+			<group>
+				<transform>
+					<translate time="9" align="False">
+						<point x="2.081" y="-1.7" z="0.0"/>
+						<point x="1.04" y="-0.85" z="1.802"/>
+						<point x="-1.04" y="0.85" z="1.802"/>
+						<point x="-2.081" y="1.7" z="0.0"/>
+						<point x="-1.04" y="0.85" z="-1.802"/>
+						<point x="1.04" y="-0.85" z="-1.802"/>
+					</translate>
+					<scale x="0.1" y="0.1" z="0.1"/>
+					<rotate time="6" x="0.883" y="0.288" z="0.179"/>
+				</transform>
+				<models>
+					<model file="sphere_nt.3d">
+						<texture file="moon.jpg"/>
+					</model>
+				</models>
+			</group>
+			<group>
+				<transform>
+					<translate time="9" align="False">
+						<point x="2.283" y="1.6" z="0.0"/>
+						<point x="1.423" y="0.998" z="1.785"/>
+						<point x="-0.508" y="-0.356" z="2.225"/>
+						<point x="-2.056" y="-1.442" z="0.99"/>
+						<point x="-2.056" y="-1.442" z="-0.99"/>
+						<point x="-0.508" y="-0.356" z="-2.225"/>
+						<point x="1.423" y="0.998" z="-1.785"/>
+					</translate>
+					<scale x="0.2" y="0.2" z="0.2"/>
+					<rotate time="6" x="0.784" y="0.708" z="0.547"/>
+				</transform>
+				<models>
+					<model file="sphere_nt.3d">
+						<texture file="moon.jpg"/>
+					</model>
+				</models>
+			</group>
+			<group>
+				<transform>
+					<translate time="9" align="False">
+						<point x="2.163" y="1.2" z="0.0"/>
+						<point x="1.082" y="0.6" z="1.873"/>
+						<point x="-1.082" y="-0.6" z="1.873"/>
+						<point x="-2.163" y="-1.2" z="0.0"/>
+						<point x="-1.082" y="-0.6" z="-1.873"/>
+						<point x="1.082" y="0.6" z="-1.873"/>
+					</translate>
+					<scale x="0.12" y="0.12" z="0.12"/>
+					<rotate time="6" x="0.052" y="0.723" z="0.77"/>
+				</transform>
+				<models>
+					<model file="sphere_nt.3d">
+						<texture file="moon.jpg"/>
+					</model>
+				</models>
+			</group>
+			<group>
+				<transform>
+					<translate time="9" align="False">
+						<point x="1.414" y="0.0" z="0.0"/>
+						<point x="0.0" y="0.0" z="1.414"/>
+						<point x="-1.414" y="0.0" z="0.0"/>
+						<point x="0.0" y="0.0" z="-1.414"/>
+					</translate>
+					<scale x="0.17" y="0.17" z="0.17"/>
+					<rotate time="6" x="0.641" y="0.782" z="0.611"/>
+				</transform>
+				<models>
+					<model file="sphere_nt.3d">
+						<texture file="moon.jpg"/>
+					</model>
+				</models>
+			</group>
+		</group>
+		<group>
+			<transform>
+				<translate time="25" align="False">
+					<point x="35.0" y="0.0" z="0.0"/>
+					<point x="34.942" y="0.0" z="2.016"/>
+					<point x="34.768" y="0.0" z="4.026"/>
+					<point x="34.478" y="0.0" z="6.022"/>
+					<point x="34.074" y="0.0" z="7.999"/>
+					<point x="33.556" y="0.0" z="9.949"/>
+					<point x="32.927" y="0.0" z="11.865"/>
+					<point x="32.189" y="0.0" z="13.743"/>
+					<point x="31.344" y="0.0" z="15.574"/>
+					<point x="30.395" y="0.0" z="17.354"/>
+					<point x="29.344" y="0.0" z="19.076"/>
+					<point x="28.197" y="0.0" z="20.735"/>
+					<point x="26.955" y="0.0" z="22.325"/>
+					<point x="25.624" y="0.0" z="23.841"/>
+					<point x="24.208" y="0.0" z="25.278"/>
+					<point x="22.711" y="0.0" z="26.631"/>
+					<point x="21.14" y="0.0" z="27.895"/>
+					<point x="19.497" y="0.0" z="29.066"/>
+					<point x="17.79" y="0.0" z="30.141"/>
+					<point x="16.024" y="0.0" z="31.116"/>
+					<point x="14.205" y="0.0" z="31.988"/>
+					<point x="12.339" y="0.0" z="32.753"/>
+					<point x="10.431" y="0.0" z="33.409"/>
+					<point x="8.489" y="0.0" z="33.955"/>
+					<point x="6.519" y="0.0" z="34.388"/>
+					<point x="4.527" y="0.0" z="34.706"/>
+					<point x="2.52" y="0.0" z="34.909"/>
+					<point x="0.504" y="0.0" z="34.996"/>
+					<point x="-1.513" y="0.0" z="34.967"/>
+					<point x="-3.525" y="0.0" z="34.822"/>
+					<point x="-5.525" y="0.0" z="34.561"/>
+					<point x="-7.507" y="0.0" z="34.185"/>
+					<point x="-9.464" y="0.0" z="33.696"/>
+					<point x="-11.39" y="0.0" z="33.095"/>
+					<point x="-13.277" y="0.0" z="32.384"/>
+					<point x="-15.121" y="0.0" z="31.565"/>
+					<point x="-16.914" y="0.0" z="30.642"/>
+					<point x="-18.652" y="0.0" z="29.616"/>
+					<point x="-20.327" y="0.0" z="28.492"/>
+					<point x="-21.935" y="0.0" z="27.274"/>
+					<point x="-23.47" y="0.0" z="25.965"/>
+					<point x="-24.926" y="0.0" z="24.57"/>
+					<point x="-26.301" y="0.0" z="23.093"/>
+					<point x="-27.587" y="0.0" z="21.539"/>
+					<point x="-28.782" y="0.0" z="19.914"/>
+					<point x="-29.882" y="0.0" z="18.223"/>
+					<point x="-30.882" y="0.0" z="16.471"/>
+					<point x="-31.78" y="0.0" z="14.665"/>
+					<point x="-32.572" y="0.0" z="12.809"/>
+					<point x="-33.256" y="0.0" z="10.911"/>
+					<point x="-33.829" y="0.0" z="8.977"/>
+					<point x="-34.29" y="0.0" z="7.014"/>
+					<point x="-34.637" y="0.0" z="5.026"/>
+					<point x="-34.869" y="0.0" z="3.023"/>
+					<point x="-34.985" y="0.0" z="1.009"/>
+					<point x="-34.985" y="0.0" z="-1.009"/>
+					<point x="-34.869" y="0.0" z="-3.023"/>
+					<point x="-34.637" y="0.0" z="-5.026"/>
+					<point x="-34.29" y="0.0" z="-7.014"/>
+					<point x="-33.829" y="0.0" z="-8.977"/>
+					<point x="-33.256" y="0.0" z="-10.911"/>
+					<point x="-32.572" y="0.0" z="-12.809"/>
+					<point x="-31.78" y="0.0" z="-14.665"/>
+					<point x="-30.882" y="0.0" z="-16.471"/>
+					<point x="-29.882" y="0.0" z="-18.223"/>
+					<point x="-28.782" y="0.0" z="-19.914"/>
+					<point x="-27.587" y="0.0" z="-21.539"/>
+					<point x="-26.301" y="0.0" z="-23.093"/>
+					<point x="-24.926" y="0.0" z="-24.57"/>
+					<point x="-23.47" y="0.0" z="-25.965"/>
+					<point x="-21.935" y="0.0" z="-27.274"/>
+					<point x="-20.327" y="0.0" z="-28.492"/>
+					<point x="-18.652" y="0.0" z="-29.616"/>
+					<point x="-16.914" y="0.0" z="-30.642"/>
+					<point x="-15.121" y="0.0" z="-31.565"/>
+					<point x="-13.277" y="0.0" z="-32.384"/>
+					<point x="-11.39" y="0.0" z="-33.095"/>
+					<point x="-9.464" y="0.0" z="-33.696"/>
+					<point x="-7.507" y="0.0" z="-34.185"/>
+					<point x="-5.525" y="0.0" z="-34.561"/>
+					<point x="-3.525" y="0.0" z="-34.822"/>
+					<point x="-1.513" y="0.0" z="-34.967"/>
+					<point x="0.504" y="0.0" z="-34.996"/>
+					<point x="2.52" y="0.0" z="-34.909"/>
+					<point x="4.527" y="0.0" z="-34.706"/>
+					<point x="6.519" y="0.0" z="-34.388"/>
+					<point x="8.489" y="0.0" z="-33.955"/>
+					<point x="10.431" y="0.0" z="-33.409"/>
+					<point x="12.339" y="0.0" z="-32.753"/>
+					<point x="14.205" y="0.0" z="-31.988"/>
+					<point x="16.024" y="0.0" z="-31.116"/>
+					<point x="17.79" y="0.0" z="-30.141"/>
+					<point x="19.497" y="0.0" z="-29.066"/>
+					<point x="21.14" y="0.0" z="-27.895"/>
+					<point x="22.711" y="0.0" z="-26.631"/>
+					<point x="24.208" y="0.0" z="-25.278"/>
+					<point x="25.624" y="0.0" z="-23.841"/>
+					<point x="26.955" y="0.0" z="-22.325"/>
+					<point x="28.197" y="0.0" z="-20.735"/>
+					<point x="29.344" y="0.0" z="-19.076"/>
+					<point x="30.395" y="0.0" z="-17.354"/>
+					<point x="31.344" y="0.0" z="-15.574"/>
+					<point x="32.189" y="0.0" z="-13.743"/>
+					<point x="32.927" y="0.0" z="-11.865"/>
+					<point x="33.556" y="0.0" z="-9.949"/>
+					<point x="34.074" y="0.0" z="-7.999"/>
+					<point x="34.478" y="0.0" z="-6.022"/>
+					<point x="34.768" y="0.0" z="-4.026"/>
+					<point x="34.942" y="0.0" z="-2.016"/>
+				</translate>
+				<scale x="1.5" y="1.5" z="1.5"/>
+				<rotate time="9" x="0" y="0.282" z="0"/>
+			</transform>
+			<models>
+				<model file="sphere_nt.3d">
+					<texture file="neptune.jpg"/>
+				</model>
+			</models>
+			<group>
+				<transform>
+					<translate time="6" align="False">
+						<point x="1.3" y="1.3" z="0.0"/>
+						<point x="0.0" y="0.0" z="1.3"/>
+						<point x="-1.3" y="-1.3" z="0.0"/>
+						<point x="0.0" y="0.0" z="-1.3"/>
+					</translate>
+					<scale x="0.15" y="0.15" z="0.15"/>
+					<rotate time="6" x="0.783" y="0.583" z="0.226"/>
+				</transform>
+				<models>
+					<model file="sphere_nt.3d">
+						<texture file="moon.jpg"/>
+					</model>
+				</models>
+			</group>
+			<group>
+				<transform>
+					<translate time="6" align="False">
+						<point x="1.921" y="-1.5" z="0.0"/>
+						<point x="0.96" y="-0.75" z="1.664"/>
+						<point x="-0.96" y="0.75" z="1.664"/>
+						<point x="-1.921" y="1.5" z="0.0"/>
+						<point x="-0.96" y="0.75" z="-1.664"/>
+						<point x="0.96" y="-0.75" z="-1.664"/>
+					</translate>
+					<scale x="0.1" y="0.1" z="0.1"/>
+					<rotate time="6" x="0.658" y="0.225" z="0.175"/>
+				</transform>
+				<models>
+					<model file="sphere_nt.3d">
+						<texture file="moon.jpg"/>
+					</model>
+				</models>
+			</group>
+			<group>
+				<transform>
+					<translate time="6" align="False">
+						<point x="2.425" y="1.4" z="0.0"/>
+						<point x="1.512" y="0.873" z="1.896"/>
+						<point x="-0.54" y="-0.312" z="2.364"/>
+						<point x="-2.185" y="-1.261" z="1.052"/>
+						<point x="-2.185" y="-1.261" z="-1.052"/>
+						<point x="-0.54" y="-0.312" z="-2.364"/>
+						<point x="1.512" y="0.873" z="-1.896"/>
+					</translate>
+					<scale x="0.2" y="0.2" z="0.2"/>
+					<rotate time="6" x="0.329" y="0.486" z="0.15"/>
+				</transform>
+				<models>
+					<model file="sphere_nt.3d">
+						<texture file="moon.jpg"/>
+					</model>
+				</models>
+			</group>
+			<group>
+				<transform>
+					<translate time="6" align="False">
+						<point x="2.608" y="1.6" z="0.0"/>
+						<point x="1.844" y="1.131" z="1.844"/>
+						<point x="0.0" y="0.0" z="2.608"/>
+						<point x="-1.844" y="-1.131" z="1.844"/>
+						<point x="-2.608" y="-1.6" z="0.0"/>
+						<point x="-1.844" y="-1.131" z="-1.844"/>
+						<point x="0.0" y="0.0" z="-2.608"/>
+						<point x="1.844" y="1.131" z="-1.844"/>
+					</translate>
+					<scale x="0.12" y="0.12" z="0.12"/>
+					<rotate time="6" x="0.205" y="0.793" z="0.588"/>
+				</transform>
+				<models>
+					<model file="sphere_nt.3d">
+						<texture file="moon.jpg"/>
+					</model>
+				</models>
+			</group>
+		</group>
+		<group>
+			<transform>
+				<translate time="15" align="True">
+					<point x="50.0" y="30.0" z="0.0"/>
+					<point x="49.96" y="29.976" z="2.0"/>
+					<point x="49.84" y="29.904" z="3.998"/>
+					<point x="49.64" y="29.784" z="5.989"/>
+					<point x="49.361" y="29.616" z="7.97"/>
+					<point x="49.002" y="29.401" z="9.938"/>
+					<point x="48.565" y="29.139" z="11.891"/>
+					<point x="48.051" y="28.83" z="13.825"/>
+					<point x="47.459" y="28.476" z="15.736"/>
+					<point x="46.792" y="28.075" z="17.622"/>
+					<point x="46.049" y="27.629" z="19.48"/>
+					<point x="45.233" y="27.14" z="21.307"/>
+					<point x="44.344" y="26.606" z="23.1"/>
+					<point x="43.384" y="26.031" z="24.855"/>
+					<point x="42.355" y="25.413" z="26.571"/>
+					<point x="41.258" y="24.755" z="28.245"/>
+					<point x="40.095" y="24.057" z="29.873"/>
+					<point x="38.868" y="23.321" z="31.453"/>
+					<point x="37.578" y="22.547" z="32.983"/>
+					<point x="36.229" y="21.737" z="34.46"/>
+					<point x="34.821" y="20.892" z="35.882"/>
+					<point x="33.357" y="20.014" z="37.246"/>
+					<point x="31.84" y="19.104" z="38.551"/>
+					<point x="30.272" y="18.163" z="39.794"/>
+					<point x="28.656" y="17.194" z="40.974"/>
+					<point x="26.994" y="16.196" z="42.087"/>
+					<point x="25.288" y="15.173" z="43.134"/>
+					<point x="23.542" y="14.125" z="44.111"/>
+					<point x="21.759" y="13.055" z="45.017"/>
+					<point x="19.94" y="11.964" z="45.852"/>
+					<point x="18.09" y="10.854" z="46.613"/>
+					<point x="16.21" y="9.726" z="47.299"/>
+					<point x="14.305" y="8.583" z="47.91"/>
+					<point x="12.376" y="7.426" z="48.444"/>
+					<point x="10.428" y="6.257" z="48.9"/>
+					<point x="8.463" y="5.078" z="49.279"/>
+					<point x="6.485" y="3.891" z="49.578"/>
+					<point x="4.496" y="2.698" z="49.797"/>
+					<point x="2.5" y="1.5" z="49.937"/>
+					<point x="0.5" y="0.3" z="49.997"/>
+					<point x="-1.501" y="-0.9" z="49.977"/>
+					<point x="-3.499" y="-2.099" z="49.877"/>
+					<point x="-5.492" y="-3.295" z="49.697"/>
+					<point x="-7.476" y="-4.485" z="49.438"/>
+					<point x="-9.448" y="-5.669" z="49.099"/>
+					<point x="-11.405" y="-6.843" z="48.682"/>
+					<point x="-13.343" y="-8.006" z="48.187"/>
+					<point x="-15.26" y="-9.156" z="47.614"/>
+					<point x="-17.153" y="-10.292" z="46.966"/>
+					<point x="-19.019" y="-11.411" z="46.242"/>
+					<point x="-20.853" y="-12.512" z="45.444"/>
+					<point x="-22.655" y="-13.593" z="44.573"/>
+					<point x="-24.42" y="-14.652" z="43.631"/>
+					<point x="-26.146" y="-15.688" z="42.619"/>
+					<point x="-27.83" y="-16.698" z="41.539"/>
+					<point x="-29.47" y="-17.682" z="40.392"/>
+					<point x="-31.063" y="-18.638" z="39.181"/>
+					<point x="-32.605" y="-19.563" z="37.906"/>
+					<point x="-34.096" y="-20.458" z="36.571"/>
+					<point x="-35.532" y="-21.319" z="35.178"/>
+					<point x="-36.911" y="-22.146" z="33.728"/>
+					<point x="-38.231" y="-22.938" z="32.224"/>
+					<point x="-39.489" y="-23.694" z="30.669"/>
+					<point x="-40.685" y="-24.411" z="29.065"/>
+					<point x="-41.815" y="-25.089" z="27.413"/>
+					<point x="-42.878" y="-25.727" z="25.719"/>
+					<point x="-43.873" y="-26.324" z="23.982"/>
+					<point x="-44.797" y="-26.878" z="22.208"/>
+					<point x="-45.65" y="-27.39" z="20.398"/>
+					<point x="-46.43" y="-27.858" z="18.555"/>
+					<point x="-47.135" y="-28.281" z="16.682"/>
+					<point x="-47.765" y="-28.659" z="14.783"/>
+					<point x="-48.318" y="-28.991" z="12.86"/>
+					<point x="-48.794" y="-29.276" z="10.917"/>
+					<point x="-49.191" y="-29.515" z="8.956"/>
+					<point x="-49.51" y="-29.706" z="6.981"/>
+					<point x="-49.75" y="-29.85" z="4.994"/>
+					<point x="-49.91" y="-29.946" z="3.0"/>
+					<point x="-49.99" y="-29.994" z="1.0"/>
+					<point x="-49.99" y="-29.994" z="-1.0"/>
+					<point x="-49.91" y="-29.946" z="-3.0"/>
+					<point x="-49.75" y="-29.85" z="-4.994"/>
+					<point x="-49.51" y="-29.706" z="-6.981"/>
+					<point x="-49.191" y="-29.515" z="-8.956"/>
+					<point x="-48.794" y="-29.276" z="-10.917"/>
+					<point x="-48.318" y="-28.991" z="-12.86"/>
+					<point x="-47.765" y="-28.659" z="-14.783"/>
+					<point x="-47.135" y="-28.281" z="-16.682"/>
+					<point x="-46.43" y="-27.858" z="-18.555"/>
+					<point x="-45.65" y="-27.39" z="-20.398"/>
+					<point x="-44.797" y="-26.878" z="-22.208"/>
+					<point x="-43.873" y="-26.324" z="-23.982"/>
+					<point x="-42.878" y="-25.727" z="-25.719"/>
+					<point x="-41.815" y="-25.089" z="-27.413"/>
+					<point x="-40.685" y="-24.411" z="-29.065"/>
+					<point x="-39.489" y="-23.694" z="-30.669"/>
+					<point x="-38.231" y="-22.938" z="-32.224"/>
+					<point x="-36.911" y="-22.146" z="-33.728"/>
+					<point x="-35.532" y="-21.319" z="-35.178"/>
+					<point x="-34.096" y="-20.458" z="-36.571"/>
+					<point x="-32.605" y="-19.563" z="-37.906"/>
+					<point x="-31.063" y="-18.638" z="-39.181"/>
+					<point x="-29.47" y="-17.682" z="-40.392"/>
+					<point x="-27.83" y="-16.698" z="-41.539"/>
+					<point x="-26.146" y="-15.688" z="-42.619"/>
+					<point x="-24.42" y="-14.652" z="-43.631"/>
+					<point x="-22.655" y="-13.593" z="-44.573"/>
+					<point x="-20.853" y="-12.512" z="-45.444"/>
+					<point x="-19.019" y="-11.411" z="-46.242"/>
+					<point x="-17.153" y="-10.292" z="-46.966"/>
+					<point x="-15.26" y="-9.156" z="-47.614"/>
+					<point x="-13.343" y="-8.006" z="-48.187"/>
+					<point x="-11.405" y="-6.843" z="-48.682"/>
+					<point x="-9.448" y="-5.669" z="-49.099"/>
+					<point x="-7.476" y="-4.485" z="-49.438"/>
+					<point x="-5.492" y="-3.295" z="-49.697"/>
+					<point x="-3.499" y="-2.099" z="-49.877"/>
+					<point x="-1.501" y="-0.9" z="-49.977"/>
+					<point x="0.5" y="0.3" z="-49.997"/>
+					<point x="2.5" y="1.5" z="-49.937"/>
+					<point x="4.496" y="2.698" z="-49.797"/>
+					<point x="6.485" y="3.891" z="-49.578"/>
+					<point x="8.463" y="5.078" z="-49.279"/>
+					<point x="10.428" y="6.257" z="-48.9"/>
+					<point x="12.376" y="7.426" z="-48.444"/>
+					<point x="14.305" y="8.583" z="-47.91"/>
+					<point x="16.21" y="9.726" z="-47.299"/>
+					<point x="18.09" y="10.854" z="-46.613"/>
+					<point x="19.94" y="11.964" z="-45.852"/>
+					<point x="21.759" y="13.055" z="-45.017"/>
+					<point x="23.542" y="14.125" z="-44.111"/>
+					<point x="25.288" y="15.173" z="-43.134"/>
+					<point x="26.994" y="16.196" z="-42.087"/>
+					<point x="28.656" y="17.194" z="-40.974"/>
+					<point x="30.272" y="18.163" z="-39.794"/>
+					<point x="31.84" y="19.104" z="-38.551"/>
+					<point x="33.357" y="20.014" z="-37.246"/>
+					<point x="34.821" y="20.892" z="-35.882"/>
+					<point x="36.229" y="21.737" z="-34.46"/>
+					<point x="37.578" y="22.547" z="-32.983"/>
+					<point x="38.868" y="23.321" z="-31.453"/>
+					<point x="40.095" y="24.057" z="-29.873"/>
+					<point x="41.258" y="24.755" z="-28.245"/>
+					<point x="42.355" y="25.413" z="-26.571"/>
+					<point x="43.384" y="26.031" z="-24.855"/>
+					<point x="44.344" y="26.606" z="-23.1"/>
+					<point x="45.233" y="27.14" z="-21.307"/>
+					<point x="46.049" y="27.629" z="-19.48"/>
+					<point x="46.792" y="28.075" z="-17.622"/>
+					<point x="47.459" y="28.476" z="-15.736"/>
+					<point x="48.051" y="28.83" z="-13.825"/>
+					<point x="48.565" y="29.139" z="-11.891"/>
+					<point x="49.002" y="29.401" z="-9.938"/>
+					<point x="49.361" y="29.616" z="-7.97"/>
+					<point x="49.64" y="29.784" z="-5.989"/>
+					<point x="49.84" y="29.904" z="-3.998"/>
+					<point x="49.96" y="29.976" z="-2.0"/>
+				</translate>
+				<scale x="0.1" y="0.1" z="0.1"/>
+				<rotate time="9" x="0.709" y="0.767" z="0.714"/>
+			</transform>
+			<models>
+				<model file="bezier_nt.3d">
+					<texture file="comet.jpg"/>
+				</model>
+			</models>
+		</group>
+	</group>
+</world>
