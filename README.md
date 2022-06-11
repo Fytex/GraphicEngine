@@ -19,8 +19,7 @@ The generator creates some basic primitives :
  ## Generator
  
  The generator creates 2 files, one containing the points of the triangles and the respective normals, and the other file has the points for the textures.
- To create a different model with bezier it's recommended to read *fileFormat.patch.eng.pdf* in *bezier_info*'s folder.
- *Teapot*'s patch is already provided as an example.
+ To create a different model with bezier it's recommended to read *README.md* in *bezier_info*'s folder. *Teapot*'s patch is already provided as an example.
  
  ### Plane
  `./generator plane size divisions outFile`
