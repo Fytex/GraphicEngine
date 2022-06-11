@@ -1,8 +1,10 @@
 # GraphicEngine
 
-Graphic Engine and Model Generator made in C++. 
+![Solar System](examples/solar_system_lines.png)
+
+Graphic Engine and Model Generator made in C++.
 The engine uses OpenGl to render 3D models, i.e, models of points that describe triangles.
-The generator creates some basic primitives :
+The generator creates some basic primitives:
 - Plane
 - Box
 - Cone
@@ -15,6 +17,26 @@ The generator creates some basic primitives :
  As refered before, the engine uses OpenGL to render a scene, it also applies transformations, textures, normals and lights. These are passed in a XML file passed by argument to the engine, that follows a syntax that can be found in the *xml_syntax* file.
  
  To run the executable you must provide the xml as an argument and have all the files (from generator) and textures (if using) in the respective folder.
+ 
+ Functionalities:
+ 
+- UP Key - Longitudinal positive movement
+- DOWN Key - Longitudinal negative movement
+- RIGHT Key - Latitudinal positive movement
+- LEFT Key - Latitudinal negative movement
+- CTRL+UP Keys - Camera's approximation
+- CTRL+DOWN Keys - Camera's disapproximation
+- W Key - Foward movement
+- S Key - Backward movement
+- D Key - Movement to the right
+- A Key - Movement to the left
+- Mouse - Camera's view
+
+- Z Key - Change between different modes of drawing models (Fill, Lines,
+Points)
+- X Key - Show/Hide axis X, Y and Z and movement trajectories
+- ESC Key - Free's user from application
+
  
  ## Generator
  
