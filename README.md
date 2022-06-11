@@ -23,26 +23,32 @@ The generator creates some basic primitives :
  
  ### Plane
  `./generator plane size divisions outFile`
+
  Ex: `./generator plane 1 3 plane.3d`
  
  ### Box
  `./generator box size divisions outFile`
+ 
  Ex: `./generator box 1 3 box.3d`
  
  ### Cone
  `./generator cone radius height slices stacks outFile`
+ 
  Ex: `./generator cone 1 2 10 10 cone.3d`
  
  ### Sphere
  `./generator sphere radius slices stacks outFile`
+ 
  Ex: `./generator sphere 1 10 10 sphere.3d`
  
  ### Bezier
  `./generator bezier inFile level outFile`
+ 
  Ex: `./generator bezier teapot.patch 64 bezier.3d`
  
   ### Torus
  `./generator torus outterRadius innerRadius slices stacks outFile`
+ 
  Ex: `./generator torus 2.4 2.2 20 20 torus.3d`
  
  
