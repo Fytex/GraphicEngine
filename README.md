@@ -2,8 +2,12 @@
 
 ![Solar System](examples/solar_system_lines.png)
 
-Graphic Engine and Model Generator made in C++.
+
+Graphic Engine and Model Generator made in C++ with spacial movement.
+
 The engine uses OpenGl to render 3D models, i.e, models of points that describe triangles.
+
+
 The generator creates some basic primitives:
 - Plane
 - Box
